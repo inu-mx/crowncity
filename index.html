@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- tab icon 
+	<!-- tab icon
 	<link rel="shortcut icon" href="assets/img/inu.ico" />-->
 	<!-- web name -->
 	<title>Crown City Casino</title>
@@ -21,7 +21,7 @@
 	<!-- navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container-fluid navbar-padding">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top"><b>Crown City</b></a>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top" hidden><b>Crown City</b></a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				MENÚ&nbsp;
 				<i class="fa fa-bars"></i>
@@ -46,75 +46,41 @@
 	</nav>
 
 	<!-- main bootstrap container -->
-	<div class="container-fluid">
-	
-	<div class="row">
-		<div class="parent-container" id="landing-section">
-			<div class="child-container">
-				<div class="row">
-					<div class="col-sm-12">
-						<img src="assets/img/crownlogo.svg" class="mx-auto d-block svg-fluid" alt="Crown City Logo">
-					</div>
-				</div>
-				<div class="row" id="landing-cards">
-					<div class="col-sm-12 col-md-4">
-						<div class="card border-info bg-dark text-white">
-							<img class="card-img" src="https://firebasestorage.googleapis.com/v0/b/crown-city-app-2.appspot.com/o/inicio%2Fcard-casino.jpg?alt=media&token=d1c59c11-0ea7-427a-8634-02ea48210310" alt="Card image">
-							<div class="card-img-overlay text-center">
-								<h3 class="card-title">Promociones</h3>
-								<p class="card-text">¡Conócelas y visítanos para participar!</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="card border-info bg-dark text-white">
-							<img class="card-img" src="https://firebasestorage.googleapis.com/v0/b/crown-city-app-2.appspot.com/o/inicio%2Fcard-restaurante.jpg?alt=media&token=5cb5a333-20d6-46df-9cc4-bd238ded9264" alt="Card image">
-							<div class="card-img-overlay text-center">
-								<h3 class="card-title">Restaurante</h3>
-								<p class="card-text">Los mejores platillos para disfrutar en todo momento</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="card border-info bg-dark text-white">
-							<img class="card-img" src="https://firebasestorage.googleapis.com/v0/b/crown-city-app-2.appspot.com/o/inicio%2Fcard-casino-fachada.jpg?alt=media&token=8cf305a9-3685-4f13-a323-0a40d76778dc" alt="Card image">
-							<div class="card-img-overlay text-center">
-								<h3 class="card-title">Sportsbook</h3>
-								<p class="card-text">Vive las mejores apuestas deportivas en el mejor lugar</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-		
-	<!-- footer 
-	<footer class="footer-3">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 text-center text-md-left mt-2 mb-3 pt-1">
-					<p>Derechos Reservados © inu | 2018</p>
-				</div>
-				<div class="col-md-6 text-center text-md-right mb-4">
-					<ul class="social">
-						<li><a href="https://www.facebook.com/Inu-196998217685830/" title="Facebook" target="blank"><i class="fab fa-facebook-square fa-lg"></i></a></li>
-						<li><a href="https://www.twitter.com/" title="Twitter" target="blank"><i class="fab fa-twitter fa-lg"></i></a></li>
-						<li><a href="https://www.instagram.com/inu.mx/" title="Instagram" target="blank"><i class="fab fa-instagram fa-lg"></i></a></li>
-						<li><a href="https://www.github.com/inu-mx" title="GitHub" target="blank"><i class="fab fa-github-alt fa-lg"></i></a></li>
-						<div class="clear"></div>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer> -->
+	<main class="container-fluid">
 
-	</div>
+		<section id="landing">
+			<div class="row align-items-center h-100">
+				<div class="col-sm-12 col-lg-6">
+					<img src="assets/img/crownlogo-blanco.svg" class="svg-fluid" alt="Crown City Logo" />
+					<p class="highlight">¡Donde siempre estás de suerte!</p>
+					<p id="landing-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col-sm-12 col-lg-6">
+					<img src="assets/img/landing-img.jpg" id="landing-img" class="mx-auto d-block" alt="Imagen Landing" />
+				</div>
+			</div>
+		</section>
+
+		<section id="promociones">
+			<div class="row align-items-center h-50">
+				<div class="col-sm-12 col-lg-6">
+					<p id="promociones-title">Promociones</p>
+				</div>
+				<div class="col-sm-12 col-lg-6">
+					<img src="assets/img/promociones.png" id="promociones-img" alt="Promociones">
+					<p id="promociones-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+					<button type="button" class="btn btn-warning">¡Conoce más!</button>
+				</div>
+			</div>
+		</section>
+
+	</main>
 
 	<!-- vendor scripts -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="assets/js/rellax.min.js"></script>
 	<!-- custom js & live reload -->
 	<script src="assets/js/app.js"></script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
