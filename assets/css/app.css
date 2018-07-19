@@ -59,6 +59,35 @@ hr {
 	margin-right: 0 !important;
 }
 
+.parent-container {
+	display: table;
+}
+
+.child-container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.hvh-100 {
+	height: 100vh;
+	width: 100%;
+}
+
+.hvh-75 {
+	height: 75vh;
+	width: 100%;
+}
+
+.hvh-50 {
+	height: 50vh;
+	width: 100%;
+}
+
+.hvh-25 {
+	height: 25vh;
+	width: 100%;
+}
+
 /* ---- navbar ---- */
 
 .navbar-padding {
@@ -124,6 +153,7 @@ hr {
 	#mainNav {
 		background-color: transparent;
 		border-color: transparent;
+		margin-top: 20px;
 	}
 
 	#mainNav .navbar-brand {
@@ -170,97 +200,22 @@ hr {
 
 /* ---- landing ---- */
 
-#landing {
-	height: 100vh;
-	width: 100%;
-	margin: 0 60px;
+.main-text {
+	color: #fff;
 }
 
-.parent-container {
-	display: table;
+#promociones-section {
+	background-color: hsla(204, 100%, 65%, 0.85)
 }
 
-.child-container {
-	display: table-cell;
-	vertical-align: middle;
-	padding-left: 100px;
+#restaurante-section {
+	background-color: rgba(241, 120, 120, 0.9);
 }
 
-.svg-fluid {
-	height: 250px;
-	width: 250px;
-	margin-bottom: 10px;
+#sportsbook-section {
+	background-color: rgba(128, 255, 144, 0.9);
 }
 
-.highlight {
-	color: white;
-	font-size: 3.38em;
-	text-transform: uppercase;
-}
-
-.highlight::after {
-	content: "";
-    background: rgb(240, 193, 52);
-    display: block;
-    height: 20px;
-	width: 880px;
-	margin-top: 10px;
-}
-
-#landing-subtitle {
-	color: white;
-	margin-left: 60px;
-}
-
-#landing-img {
-	box-shadow: 12px 12px #0f0f0f;
-}
-
-#promociones {
-	height: 50vh;
-	width: 100%;
-	margin: 0 60px;
-}
-
-#promociones-title {
-	color: white;
-	font-size: 4.5em;
-	margin-top: -100px;
-    position: absolute;
-	text-transform: uppercase;
-    transform-origin: bottom;
-    transform: rotate(270deg);
-}
-
-#promociones-title::after {
-	content: "";
-    background: rgb(240, 193, 52);
-    display: block;
-    height: 20px;
-	width: 400px;
-}
-
-#promociones-img {
-	position: absolute;
-	left: -350px;
-	top: -100px;
-	width: 100%;
-}
-
-#promociones-text {
-	color: white;
-	position: absolute;
-	left: -340px;
-	top: 180px;
-	text-align: center;
-	width: 100%;
-}
-
-.btn.btn-warning {
-	position: absolute;
-	font-weight: bold;
-	left: -95px;
-	top: 210px;
-	margin-top: 10px;
-	width: 50%;
+#footer-section {
+	color: #fff;
 }
