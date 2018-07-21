@@ -52,6 +52,8 @@ hr {
 .container-fluid {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	color: #fff !important;
+	font-family: 'Montserrat', serif !important;
 }
 
 .row {
@@ -200,9 +202,67 @@ hr {
 
 /* ---- landing ---- */
 
-.main-text {
-	color: #fff;
+#logo {
+	height: 17%;
+	width: 17%;
+	margin-bottom: 20px;
 }
+
+.btn.btn-primary{
+	width: 50%;
+}
+
+/*.regist-text b {
+	font-family: 'League Script', cursive;
+	font-size: 7vh;
+	color: #fee;
+	text-shadow: 0 -5px 50px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+
+.regist-text b span {
+	animation: blink linear infinite 2s;
+} */
+
+.padder-text {
+	margin: 0 15%;
+}
+
+#title-neon {
+	font-size: 7vh;
+}
+
+#fade-neon {
+	font-family: 'League Script', cursive;
+	color: #ebffff;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 80px #38eeff;
+	/* animation: fade 3s infinite alternate; */
+	animation: blink 0.01s infinite alternate;
+}
+
+.neon-blue {
+	margin: 0 auto;
+	text-align: center;
+	color: #ebffff;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
+}
+
+.btn-outline {
+	border: 2px solid #38eeff !important;
+	color: #38eeff !important;
+	opacity: 0.7;
+	margin-top: 30px;
+	width: 30%;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff;
+	transition: all .5s;
+}
+
+.btn-outline:hover {
+	color: #000 !important;
+	opacity: 1;
+	background-color: #30dcec !important;
+}
+
+/* promotions section */
 
 #promociones-section {
 	background-color: hsla(204, 100%, 65%, 0.85);
@@ -218,4 +278,74 @@ hr {
 
 #footer-section {
 	color: #fff;
+}
+
+/* animations */
+
+@keyframes blink { /* Thanks to Nodws at https://codepen.io/nodws/pen/bdjwn */
+	78% {
+		color: inherit;
+		text-shadow: inherit;
+	}
+
+	79%{
+    	color: #333;
+	}
+
+	80% {
+    	text-shadow: none;
+	}
+
+	81% {
+		color: inherit;
+    	text-shadow: inherit;
+	}
+
+	82% {
+		color: #333;
+    	text-shadow: none;
+	}
+
+	83% {
+    	color: inherit;
+    	text-shadow: inherit;
+	}
+
+	92% {
+    	color: #333;
+    	text-shadow: none;
+	}
+
+	92.5% {
+		color: inherit;
+    	text-shadow: inherit;
+	}
+}
+
+@keyframes blink-two {
+	70% {
+		opacity: 0.7;
+	}
+}
+
+@keyframes fade {
+	40% {
+    	opacity: 0.8;
+	}
+
+	42% {
+    	opacity: 0.1;
+	}
+
+	43% {
+    	opacity: 0.8;
+	}
+
+	45% {
+    	opacity: 0.1;
+	}
+
+	46% {
+		opacity: 0.8;
+	}
 }
