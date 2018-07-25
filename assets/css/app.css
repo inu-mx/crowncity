@@ -70,6 +70,19 @@ hr {
 	vertical-align: middle;
 }
 
+body::-webkit-scrollbar {
+    width: 0.9em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
 .hvh-100 {
 	height: 100vh;
 	width: 100%;
@@ -202,6 +215,14 @@ hr {
 
 /* ---- landing ---- */
 
+#landing-section {
+	background: url(../img/casino-uno-blur.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #logo {
 	height: 17%;
 	width: 17%;
@@ -211,17 +232,6 @@ hr {
 .btn.btn-primary{
 	width: 50%;
 }
-
-/*.regist-text b {
-	font-family: 'League Script', cursive;
-	font-size: 7vh;
-	color: #fee;
-	text-shadow: 0 -5px 50px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
-}
-
-.regist-text b span {
-	animation: blink linear infinite 2s;
-} */
 
 .padder-text {
 	margin: 0 15%;
@@ -262,11 +272,21 @@ hr {
 	background-color: #30dcec !important;
 }
 
-/* promotions section */
+/* ---- facebook section ---- */
 
-#promociones-section {
-	background-color: hsla(204, 100%, 65%, 0.85);
+#facebook-section {
+	background: rgb(228,2,2);
+	background: -moz-linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
+	background: -webkit-linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
+	background: linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e40202",endColorstr="#053da2",GradientType=1);
 }
+
+/* ---- promotions section ---- */
+
+
+
+/* ---- restaurante section ---- */
 
 #restaurante-section {
 	background-color: rgba(241, 120, 120, 0.9);
