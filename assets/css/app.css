@@ -276,6 +276,16 @@ body::-webkit-scrollbar-thumb {
 	background-color: #30dcec !important;
 }
 
+.modal-title {
+	font-weight: bold !important;
+}
+
+.modal-content {
+	background-color: #212121 !important;
+	border: 1px solid #38eeff !important;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
+}
+
 /* ---- facebook section ---- */
 
 #facebook-section {
@@ -288,12 +298,16 @@ body::-webkit-scrollbar-thumb {
 
 /* ---- promotions section ---- */
 
-
+#carouselExampleIndicators {
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
+}
 
 /* ---- restaurante section ---- */
 
-#restaurante-section {
-	background-color: rgba(241, 120, 120, 0.9);
+.landing-menu-img {
+	border-radius: 5px;
+	max-width: 100%;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #f52828, 0 0 20px #f52828 !important;
 }
 
 #sportsbook-section {
