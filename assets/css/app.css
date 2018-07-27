@@ -103,6 +103,10 @@ body::-webkit-scrollbar-thumb {
 	width: 100%;
 }
 
+.section-padding {
+	padding: 50px 0;
+}
+
 /* ---- navbar ---- */
 
 .navbar-padding {
@@ -275,11 +279,11 @@ body::-webkit-scrollbar-thumb {
 /* ---- facebook section ---- */
 
 #facebook-section {
-	background: rgb(228,2,2);
-	background: -moz-linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
-	background: -webkit-linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
-	background: linear-gradient(156deg, rgba(228,2,2,1) 0%, rgba(70,19,181,1) 60%, rgba(5,61,162,1) 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e40202",endColorstr="#053da2",GradientType=1);
+	background: rgb(33,33,33);
+	background: -moz-linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212121",endColorstr="#000000",GradientType=1);
 }
 
 /* ---- promotions section ---- */
