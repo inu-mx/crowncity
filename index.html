@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ES">
+<html lang="es-MX">
 <head>
 	<!-- header tags -->
 	<meta charset="utf-8">
@@ -15,7 +15,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/slick/slick-theme.css"/>
 	<link href="https://fonts.googleapis.com/css?family=League+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -66,7 +65,7 @@
 				</div>
 			</div>
 
-			<!-- modal -->
+			<!-- modal registro -->
 			<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
 			  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 			    <div class="modal-content">
@@ -156,7 +155,7 @@
 			</div>
 		</section>
 
-		<section id="restaurante-section" class="d-flex hvh-75">
+		<section id="restaurante-section" class="d-flex hvh-60">
 			<div class="container justify-content-center align-self-center">
 				<div class="row">
 					<div class="col-sm-12 justify-content-center align-self-center">
@@ -183,10 +182,57 @@
 			</div>
 		</section>
 
-		<section id="sportsbook-section" class="d-flex hvh-75">
-			<div class="row justify-content-center align-self-center">
-				<div class="col-sm-12">
-					<h1 class="main-text">Sportsbook</h1>
+		<section id="royalty-section" class="d-flex hvh-75">
+			<div class="container justify-content-center align-self-center">
+				<div class="row">
+					<div class="col-sm-12 justify-content-center align-self-center">
+						<h1 class="text-center">Categorías Royalty</h1>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+				<div class="row" style="margin-top:30px;">
+					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
+						<img src="http://via.placeholder.com/400x400" class="circle-img rounded-circle">
+						<h3 class="text-center" style="margin-top:20px;">Categoría 1</h3>
+						<p class="text-center" style="margin-top:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
+						<img src="http://via.placeholder.com/400x400" class="circle-img rounded-circle">
+						<h3 class="text-center" style="margin-top:20px;">Categoría 2</h3>
+						<p class="text-center" style="margin-top:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
+						<img src="http://via.placeholder.com/400x400" class="circle-img rounded-circle">
+						<h3 class="text-center" style="margin-top:20px;">Categoría 3</h3>
+						<p class="text-center" style="margin-top:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
+						<img src="http://via.placeholder.com/400x400" class="circle-img rounded-circle">
+						<h3 class="text-center" style="margin-top:20px;">Categoría 4</h3>
+						<p class="text-center" style="margin-top:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="map-section" class="d-flex">
+			<div class="container-fluid justify-content-center align-self-center">
+				<div class="row">
+					<div class="col-sm-12 justify-content-center align-self-center" style="min-width:100%;">
+						<h1>Ubicación</h1>
+						<div id="map" style="height:100%;"></div>
+						<script>
+				      var map;
+				      function initMap() {
+				        map = new google.maps.Map(document.getElementById('map'), {
+				          center: {lat: -34.397, lng: 150.644},
+				          zoom: 8
+				        });
+				      }
+				    </script>
+				    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_rLHOBl0WYQr-ZihhPH50lG7U8H561xw&callback=initMap"
+				    async defer></script>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -195,8 +241,72 @@
 		<section id="footer-section" class="d-flex hvh-25">
 			<div class="row justify-content-center align-items-center w-100">
 				<div class="col-sm-12">
-					<p class="text-center">Derechos Reservados</p>
+					<img src="assets/img/ahis.png" class="mx-auto d-block" alt="Compañía Operadora AHIS">
+					<p class="text-center">Derechos Reservados Crown City Casino 2018</p>
+					<div class="footer-links text-center">
+						<a href="#" data-toggle="modal" data-target="#footerModal">Política de privacidad</a>
+					</div>
 				</div>
+			</div>
+
+			<!-- modal privacy policy -->
+			<div class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="modalFooter" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 id="modalFooter">Política de privacidad de <b>www.crowncity.mx</b></h4>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar" style="color:#FFF;">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      	<div class="modal-body">
+								<p style="margin-bottom:35px;">Esta Aplicación recoge algunos Datos Personales de sus Usuarios para las siguientes finalidades y utilizando los siguientes servicios:</p>
+								<div class="row">
+									<div class="col-sm-12 col-md-6">
+										<small><i class="fas fa-user">&nbsp;&nbsp;</i> <b>Acceso a las cuentas de servicios de terceros</b></small><br>
+										<small><b>Acceso a la cuenta de Facebook</b></small><br>
+										<small>Permisos: Acerca de mí</small>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<small><i class="far fa-envelope-open">&nbsp;&nbsp;</i><b>Contactar con el Usuario</b></small><br>
+										<small><b>Formulario de contacto</b></small><br>
+										<small>Datos Personales: ciudad, dirección de correo electrónico, fecha de nacimiento y número de teléfono</small>
+									</div>
+								</div><br>
+								<div class="row">
+									<div class="col-sm-12 col-md-6">
+										<small><i class="far fa-chart-bar">&nbsp;&nbsp;</i> <b>Estadísticas</b></small><br>
+										<small><b>Google Analytics</b></small><br>
+										<small>Datos Personales: Cookies y Datos de uso</small>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<small><i class="fab fa-hotjar">&nbsp;&nbsp;</i><b>Heat mapping y grabación de sesiones</b></small><br>
+										<small><b>Hotjar Heat Maps & Recordings</b></small><br>
+										<small>Datos Personales: Cookies, Datos de uso y distintas clases de Datos, según se especifica en la Política de Privacidad del servicio</small>
+									</div>
+								</div><br>
+								<div class="row">
+									<div class="col-sm-12">
+										<p style="margin-bottom:35px;">Datos de contacto</p>
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<small><i class="fas fa-user-tie">&nbsp;&nbsp;</i><b>Titular y Responsable del tratamiento de los Datos</b></small><br>
+										<small>Crown City Premium Corporativo S.A. de C.V. - Av. Paseo Tabasco 4002, Villahermosa, Tabasco, México</small><br>
+										<small><b>Correo electrónico de contacto del Titular:</b></small><br>
+										<small>webmanager@gcc.mx</small>
+									</div>
+								</div><br><br>
+								<div class="row">
+									<div class="col-sm-12">
+										<p>Última revisión: 28 de Julio de 2018</p>
+									</div>
+								</div>
+			      	</div>
+			      	<div class="modal-footer">
+								<a class="btn btn-primary" href="politica-privacidad">Política de privacidad completa</a>
+			      	</div>
+			    </div>
+			  </div>
 			</div>
 		</section>
 
