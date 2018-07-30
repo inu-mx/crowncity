@@ -103,6 +103,26 @@ body::-webkit-scrollbar-thumb {
 	padding: 50px 0;
 }
 
+.zero-padding {
+	padding: 0 !important;
+}
+
+.margin-top-15 {
+	margin-top: 15px !important;
+}
+
+.margin-top-20 {
+	margin-top: 20px !important;
+}
+
+.margin-top-30 {
+	margin-top: 30px !important;
+}
+
+.margin-bottom-35 {
+	margin-bottom: 35px;
+}
+
 /* ---- navbar ---- */
 
 .navbar-padding {
@@ -238,7 +258,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #title-neon {
-	font-size: 7vh;
+	font-size: 4em;
 }
 
 #fade-neon {
@@ -281,23 +301,27 @@ body::-webkit-scrollbar-thumb {
 	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
 }
 
-/* ---- facebook section ---- */
-
-#facebook-section {
-	background: -moz-linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
-	background: linear-gradient(90deg, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
-	background: rgb(33,33,33);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#212121",endColorstr="#000000",GradientType=1);
-}
-
 /* ---- promotions section ---- */
 
-#carouselExampleIndicators {
+#promociones-section {
+	padding: 150px 0 100px 0;
+}
+
+#carouselIndicators {
 	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
 }
 
+/* ---- categories section ---- */
+
+#royalty-section {
+	padding-top:120px;
+}
+
 /* ---- restaurante section ---- */
+
+#restaurante-section {
+	padding-top: 50px;
+}
 
 .landing-menu-img {
 	border-radius: 5px;
@@ -311,10 +335,21 @@ body::-webkit-scrollbar-thumb {
 	max-width: 100% !important;
 }
 
+/* ---- maps section ---- */
+
+#map-section {
+	padding-top: 100px;
+}
+
 /* ---- footer section ---- */
 
 #footer-section {
 	color: #fff;
+}
+
+#map {
+  height: 600px;
+	width: 100%;
 }
 
 /* ---- animations ---- */
@@ -384,5 +419,74 @@ body::-webkit-scrollbar-thumb {
 
 	46% {
 		opacity: 0.8;
+	}
+}
+
+/* ---- media queries ---- */
+
+@media (max-width: 576px) {
+	#logo {
+		margin-top: 30px;
+		width: 60%;
+		height: 60%;
+	}
+
+	#title-neon {
+		margin-top: -20px;
+		font-size: 3em;
+	}
+
+	h3 {
+		font-size: 1.5em !important;
+	}
+
+	.btn {
+		width: 80%;
+	}
+
+	.navbar-padding {
+		padding: 5px 0 !important;
+	}
+
+	#promociones-section {
+		padding: 40px 0;
+	}
+
+	.main-text {
+		text-align: center;
+	}
+
+	#see-more-promos {
+		display: block !important;
+		margin: 0 auto !important;
+		margin-bottom: 30px !important;
+	}
+
+	#restaurante-section {
+		padding-top: 25px;
+	}
+
+	#rest-p {
+		margin-bottom: 30px;
+	}
+
+	.landing-menu-img {
+		margin-bottom: 30px;
+	}
+
+	.margin-top-30 {
+		margin-top: 10px !important;
+	}
+
+	#royalty-section {
+		padding-top: 50px;
+	}
+
+	.circle-img {
+		max-width: 70% !important;
+	}
+
+	#map-section {
+		padding-top: 50px;
 	}
 }
