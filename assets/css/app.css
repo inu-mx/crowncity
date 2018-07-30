@@ -149,7 +149,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-	color: #fcbd20;
+	color: #16A5F4;
 }
 
 #mainNav .navbar-toggler {
@@ -167,7 +167,7 @@ body::-webkit-scrollbar-thumb {
 
 #mainNav .navbar-nav > li > a.active {
 	background-color: transparent;
-	color: #fdcc52 !important;
+	color: #16A5F4 !important;
 }
 
 #mainNav .navbar-nav > li > a.active:hover {
@@ -181,56 +181,7 @@ body::-webkit-scrollbar-thumb {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-	color: #fdcc52;
-}
-
-@media (min-width: 992px) {
-	#mainNav {
-		background-color: transparent;
-		border-color: transparent;
-		margin-top: 20px;
-	}
-
-	#mainNav .navbar-brand {
-		color: fade(white, 70%);
-	}
-
-	#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-		color: white;
-	}
-
-	#mainNav .navbar-nav > li > a,
-	#mainNav .navbar-nav > li > a:focus {
-		color: rgba(255, 255, 255, 0.7);
-	}
-
-	#mainNav .navbar-nav > li > a:hover,
-	#mainNav .navbar-nav > li > a:focus:hover {
-		color: #fdcc52;
-	}
-
-	#mainNav.navbar-shrink {
-		background-color: #151c29;
-		border-color: rgba(34, 34, 34, 0.1);
-	}
-
-	#mainNav.navbar-shrink .navbar-brand {
-		color: white;
-	}
-
-	#mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-		color: #fdcc52;
-	}
-
-	#mainNav.navbar-shrink .navbar-nav > li > a,
-	#mainNav.navbar-shrink .navbar-nav > li > a:focus {
-		color: white;
-	}
-
-	#mainNav.navbar-shrink .navbar-nav > li > a:hover,
-	#mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-		color: #fdcc52;
-	}
+	color: #16A5F4;
 }
 
 /* ---- landing ---- */
@@ -243,50 +194,31 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
 }
 
-#logo {
-	height: 17%;
-	margin-bottom: 20px;
-	width: 17%;
-}
-
-.btn.btn-primary{
-	width: 50%;
-}
-
-.padder-text {
-	margin: 0 15%;
-}
-
-#title-neon {
-	font-size: 4em;
-}
-
 #fade-neon {
 	animation: blink 0.01s infinite alternate;
 	color: #ebffff;
 	font-family: 'League Script', cursive;
-	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 80px #38eeff;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px rgb(22,165,255), 0 0 80px rgb(22,165,255);
 }
 
 .neon-blue {
 	color: #ebffff;
 	margin: 0 auto;
 	text-align: center;
-	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px #38eeff, 0 0 50px #38eeff;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px rgb(22,165,255), 0 0 50px rgb(22,165,255);
 }
 
 .btn-outline {
-	border: 2px solid #38eeff !important;
-	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff;
-	color: #38eeff !important;
+	background-color: #212121;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+	color: rgb(22,165,255) !important;
 	margin-top: 30px;
-	opacity: 0.7;
+	opacity: 1;
 	transition: all .5s;
-	width: 30%;
 }
 
 .btn-outline:hover {
-	background-color: #30dcec !important;
+	background-color: rgb(22,165,255) !important;
 	color: #000 !important;
 	opacity: 1;
 }
@@ -297,48 +229,20 @@ body::-webkit-scrollbar-thumb {
 
 .modal-content {
 	background-color: #212121 !important;
-	border: 1px solid #38eeff !important;
-	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
+	border: 1px solid rgb(22,165,255) !important;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255) !important;
 }
 
 /* ---- promotions section ---- */
 
-#promociones-section {
-	padding: 150px 0 100px 0;
-}
-
 #carouselIndicators {
-	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #38eeff, 0 0 20px #38eeff !important;
-}
-
-/* ---- categories section ---- */
-
-#royalty-section {
-	padding-top:120px;
-}
-
-/* ---- restaurante section ---- */
-
-#restaurante-section {
-	padding-top: 50px;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255) !important;
 }
 
 .landing-menu-img {
 	border-radius: 5px;
 	box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px #f52828, 0 0 20px #f52828 !important;
 	max-width: 100%;
-}
-
-/* ---- royalty section ---- */
-
-.circle-img {
-	max-width: 100% !important;
-}
-
-/* ---- maps section ---- */
-
-#map-section {
-	padding-top: 100px;
 }
 
 /* ---- footer section ---- */
@@ -350,6 +254,32 @@ body::-webkit-scrollbar-thumb {
 #map {
   height: 600px;
 	width: 100%;
+}
+
+.footer-links {
+	margin-top: 15px;
+}
+
+#footer-social-links > a, .footer-links > a {
+	color: #fff;
+}
+
+#footer-social-links > a:hover, .footer-links > a:hover {
+	color: #38eeff;
+	text-decoration: none;
+}
+
+#footer-social-links > a:last-child {
+	margin-left: 15px;
+}
+
+.text-after::after {
+	content: "";
+	width: 100px;
+	height: 4px;
+	background-color: #fff;
+	display: block;
+	margin: 10px auto 25px auto;
 }
 
 /* ---- animations ---- */
@@ -424,7 +354,79 @@ body::-webkit-scrollbar-thumb {
 
 /* ---- media queries ---- */
 
-@media (max-width: 576px) {
+@media (min-width: 320px) {
+	#logo {
+		margin-top: 50px;
+		width: 50%;
+		height: 50%;
+	}
+
+	#title-neon {
+		margin-top: -20px;
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1em !important;
+	}
+
+	#landing-text {
+		font-size: .8em;
+	}
+
+	.btn {
+		margin-top: -10px;
+		width: 80%;
+	}
+
+	.navbar-padding {
+		padding: 5px 0 !important;
+	}
+
+	#promociones-section {
+		padding: 40px 0;
+	}
+
+	.main-text {
+		text-align: center;
+	}
+
+	#see-more-promos {
+		display: block !important;
+		margin: 0 auto !important;
+		margin-bottom: 30px !important;
+	}
+
+	#restaurante-section {
+		padding-top: 25px;
+	}
+
+	#rest-p {
+		margin-bottom: 30px;
+	}
+
+	.landing-menu-img {
+		margin-bottom: 30px;
+	}
+
+	.margin-top-30 {
+		margin-top: 10px !important;
+	}
+
+	#royalty-section {
+		padding-top: 50px;
+	}
+
+	.circle-img {
+		max-width: 70% !important;
+	}
+
+	#map-section {
+		padding-top: 50px;
+	}
+}
+
+@media (min-width: 576px) {
 	#logo {
 		margin-top: 30px;
 		width: 60%;
@@ -488,5 +490,194 @@ body::-webkit-scrollbar-thumb {
 
 	#map-section {
 		padding-top: 50px;
+	}
+}
+
+@media (min-width: 768px) {
+	#logo {
+		margin-top: 30px;
+		width: 45%;
+		height: 45%;
+	}
+
+	#title-neon {
+		margin-top: -20px;
+		font-size: 4em;
+	}
+
+	#landing-subtitle {
+		font-size: 2em !important;
+		padding: 0 100px;
+	}
+
+	#landing-text {
+		font-size: 1.2em;
+		padding: 0 50px;
+	}
+
+	.btn {
+		margin-top: 40px;
+		width: 80%;
+	}
+
+	#mainNav .navbar-toggler {
+		font-size: 1.2em;
+	}
+
+	.navbar-nav {
+		margin-top: 15px;
+	}
+
+	#mainNav .navbar-nav > li > a {
+		font-size: 1em;
+	}
+
+	.navbar-padding {
+		padding: 5px 0 !important;
+	}
+
+	#promociones-section {
+		padding: 40px 0;
+	}
+
+	.main-text {
+		text-align: center;
+	}
+
+	#see-more-promos {
+		display: block !important;
+		margin: 0 auto !important;
+		margin-bottom: 30px !important;
+	}
+
+	#restaurante-section {
+		padding-top: 25px;
+	}
+
+	#rest-p {
+		margin-bottom: 30px;
+	}
+
+	.landing-menu-img {
+		margin-bottom: 30px;
+	}
+
+	.margin-top-30 {
+		margin-top: 10px !important;
+	}
+
+	#royalty-section {
+		padding-top: 50px;
+	}
+
+	.circle-img {
+		max-width: 70% !important;
+	}
+
+	#map-section {
+		padding-top: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	#mainNav {
+		background-color: transparent;
+		border-color: transparent;
+		margin-top: 20px;
+	}
+
+	#mainNav .navbar-brand {
+		color: fade(white, 70%);
+	}
+
+	#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+		color: white;
+	}
+
+	#mainNav .navbar-nav > li > a,
+	#mainNav .navbar-nav > li > a:focus {
+		color: rgba(255, 255, 255, 0.7);
+	}
+
+	#mainNav .navbar-nav > li > a:hover,
+	#mainNav .navbar-nav > li > a:focus:hover {
+		color: #16A5F4;
+	}
+
+	#mainNav.navbar-shrink {
+		background-color: #151c29;
+		border-color: rgba(34, 34, 34, 0.1);
+	}
+
+	#mainNav.navbar-shrink .navbar-brand {
+		color: white;
+	}
+
+	#mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+		color: #16A5F4;
+	}
+
+	#mainNav.navbar-shrink .navbar-nav > li > a,
+	#mainNav.navbar-shrink .navbar-nav > li > a:focus {
+		color: white;
+	}
+
+	#mainNav.navbar-shrink .navbar-nav > li > a:hover,
+	#mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+		color: #16A5F4;
+	}
+
+	#logo {
+		height: 23%;
+		margin-bottom: 20px;
+		width: 23%;
+	}
+
+	.btn.btn-primary{
+		width: 50%;
+	}
+
+	.padder-text {
+		margin: 0 15%;
+	}
+
+	#title-neon {
+		font-size: 4em;
+	}
+
+	.btn-outline {
+		width: 30%;
+	}
+
+	#promociones-section {
+		padding: 150px 0 100px 0;
+	}
+
+	#royalty-section {
+		padding-top: 120px;
+	}
+
+	#restaurante-section {
+		padding-top: 50px;
+	}
+
+	.circle-img {
+		max-width: 80% !important;
+	}
+
+	#map-section {
+		padding-top: 100px;
+	}
+
+	#mainNav {
+		margin-top: 0;
+	}
+
+	#mainNav .navbar-nav > li > a {
+		font-size: 0.8em;
+	}
+
+	#mainNav .navbar-nav > li:last-child > a {
+		margin-right: 30px;
 	}
 }

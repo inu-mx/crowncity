@@ -35,13 +35,13 @@
 						<a class="nav-link js-scroll-trigger" href="#inicio">Inicio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#promociones">Promociones</a>
+						<a class="nav-link js-scroll-trigger" href="#promociones-section">Promociones</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#restaurante">Restaurante</a>
+						<a class="nav-link js-scroll-trigger" href="#restaurante-section">Restaurante</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#sportsbook">Sportsbook</a>
+						<a class="nav-link js-scroll-trigger" href="#royalty-section">Royalty</a>
 					</li>
 				</ul>
 			</div>
@@ -58,8 +58,8 @@
 					<div class="col-sm-12 justify-content-center align-self-center">
 						<img src="assets/img/crownlogo-blue.svg" id="logo" class="img-fluid mx-auto d-block" alt="Logo Crown City Casino">
 						<div class="neon-blue" id="title-neon"><span id="fade-neon">Royalty</span></div>
-						<h3 class="text-center">Obtén benificios increíbles con tan sólo registrarte</h3>
-						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<h3 class="text-center" id="landing-subtitle">¡Obtén benificios increíbles con tan sólo registrarte!</h3>
+						<p class="text-center" id="landing-text">Descubre y disfruta el programa que premia tu lealtad y tu nivel de diversión al máximo</p>
 						<a class="btn btn-outline btn-lg mx-auto d-block animated infinite pulse" data-toggle="modal" data-target="#registerModal">Registrarse</a>
 					</div>
 				</div>
@@ -109,6 +109,7 @@
 				<div class="row">
 					<div class="col-sm-12 col-lg-3 justify-content-center align-self-center">
 						<h1 class="main-text">Promociones</h1>
+						<div class="text-after"></div>
 						<button type="button" name="button" class="btn btn-primary" id="see-more-promos">Ver Más</button>
 					</div>
 					<div class="col-sm-12 col-lg-8 offset-lg-1">
@@ -117,35 +118,31 @@
 						    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
 						    <li data-target="#carouselIndicators" data-slide-to="1"></li>
 						    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+								<li data-target="#carouselIndicators" data-slide-to="3"></li>
 						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
-						      <img class="d-block w-100" src="http://via.placeholder.com/800x400?text=Slide+1" alt="First slide">
-									<div class="carousel-caption d-none d-md-block">
+						      <img class="d-block w-100" src="assets/img/partidas-clasicas.jpg" alt="Partidas Clásicas">
+									<!--<div class="carousel-caption d-none d-md-block">
 								    <h5>Título 1</h5>
 								    <p>Subtítulo 1</p>
-								  </div>
+								  </div>-->
 						    </div>
 						    <div class="carousel-item">
-						      <img class="d-block w-100" src="http://via.placeholder.com/800x400?text=Slide+2" alt="Second slide">
-									<div class="carousel-caption d-none d-md-block">
-								    <h5>Título 2</h5>
-								    <p>Subtítulo 2</p>
-								  </div>
+						      <img class="d-block w-100" src="assets/img/dad-awards.jpg" alt="Dad Awards">
 						    </div>
 						    <div class="carousel-item">
-						      <img class="d-block w-100" src="http://via.placeholder.com/800x400?text=Slide+3" alt="Third slide">
-									<div class="carousel-caption d-none d-md-block">
-								    <h5>Título 3</h5>
-								    <p>Subtítulo 3</p>
-								  </div>
+						      <img class="d-block w-100" src="assets/img/bonus-weekend.jpg" alt="Bonus Weekend">
+						    </div>
+								<div class="carousel-item">
+						      <img class="d-block w-100" src="assets/img/jueves-caballeros.jpg" alt="Jueves de Caballeros">
 						    </div>
 						  </div>
-						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Anterior</span>
 						  </a>
-						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
 						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 						    <span class="sr-only">Siguiente</span>
 						  </a>
@@ -161,6 +158,7 @@
 				<div class="row">
 					<div class="col-sm-12 justify-content-center align-self-center">
 						<h1 class="text-center">Restaurante</h1>
+						<div class="text-after"></div>
 						<p class="text-center" id="rest-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 					</div>
 				</div>
@@ -189,29 +187,30 @@
 				<div class="row">
 					<div class="col-sm-12 justify-content-center align-self-center">
 						<h1 class="text-center">Categorías Royalty</h1>
-						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<div class="text-after"></div>
+						<p class="text-center">Al momento de inscribirte, ya formas parte de Royalty como cliente categoría Plata y recibirás beneficios al instante. Con tu entusiasmo y diversión en el casino, estos beneficios irán aumentando obteniendo así una mayor categoría.</p>
 					</div>
 				</div>
 				<div class="row margin-top-30">
-					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
-						<img src="http://via.placeholder.com/300x300" class="circle-img rounded-circle img-responsive mx-auto d-block">
-						<h3 class="text-center margin-top-20">Categoría 1</h3>
-						<p class="text-center margin-top-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<img src="assets/img/cat-plata.png" class="circle-img img-responsive mx-auto d-block">
+						<h3 class="text-center margin-top-20">Plata</h3>
+						<p class="text-center margin-top-15">Es la primera categoría y te ofrece un bono de bienvenida de 100 UNRs por ser cliente nuevo y, además, puedes comenzar a generar <b>millas</b> para canjearlas por fabulosos premios.</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
-						<img src="http://via.placeholder.com/300x300" class="circle-img rounded-circle img-responsive mx-auto d-block">
-						<h3 class="text-center margin-top-20">Categoría 2</h3>
-						<p class="text-center margin-top-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<img src="assets/img/cat-oro.png" class="circle-img img-responsive mx-auto d-block">
+						<h3 class="text-center margin-top-20">Oro</h3>
+						<p class="text-center margin-top-15">¡Enhorabuena! Estás en el segundo nivel, ahora que eres Cliente Oro podrás disfrutas de nuevos benificios.</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
-						<img src="http://via.placeholder.com/300x300" class="circle-img rounded-circle img-responsive mx-auto d-block">
-						<h3 class="text-center margin-top-20">Categoría 3</h3>
-						<p class="text-center margin-top-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<img src="assets/img/cat-diamante.png" class="circle-img rounded-circle img-responsive mx-auto d-block">
+						<h3 class="text-center margin-top-20">Diamante</h3>
+						<p class="text-center margin-top-15">¡Wow! ¡Tu nivel de entusiasmo se ha incrementado! Como Cliente Diamante podrás celebrar con tus bonificaciones y beneficios.</p>
 					</div>
-					<div class="col-sm-12 col-md-6 col-lg-3 justify-content-center align-self-center">
-						<img src="http://via.placeholder.com/300x300" class="circle-img rounded-circle img-responsive mx-auto d-block">
-						<h3 class="text-center margin-top-20">Categoría 4</h3>
-						<p class="text-center margin-top-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<div class="col-sm-12 col-md-6 col-lg-3">
+						<img src="assets/img/cat-prime.png" class="circle-img img-responsive mx-auto d-block">
+						<h3 class="text-center margin-top-20">Prime</h3>
+						<p class="text-center margin-top-15">¡Muchas Felicidades! Nada nos complace más que otorgarte un sinfín de beneficios por haber logrado el nivel máximo. ¡Celebremos juntos con una botella de champagne!</p>
 					</div>
 				</div>
 			</div>
@@ -222,7 +221,8 @@
 			<div class="container-fluid justify-content-center align-self-center">
 				<div class="row">
 					<div class="col-sm-12 justify-content-center align-self-center">
-						<h1>Ubicación</h1>
+						<h1 class="text-center">Ubicación</h1>
+						<div class="text-after"></div>
 					</div>
 					<div class="col-sm-12 justify-content-center align-self-center zero-padding">
 						<div id="map"></div>
@@ -233,12 +233,18 @@
 
 		<!-- footer section -->
 		<section id="footer-section" class="d-flex hvh-25">
-			<div class="row justify-content-center align-items-center w-100">
-				<div class="col-sm-12">
-					<img src="assets/img/ahis.png" class="mx-auto d-block" alt="Compañía Operadora AHIS">
-					<p class="text-center">Derechos Reservados Crown City Casino 2018</p>
-					<div class="footer-links text-center">
-						<a href="#" data-toggle="modal" data-target="#footerModal">Política de privacidad</a>
+			<div class="container justify-content-center align-self-center">
+				<div class="row w-100">
+					<div class="col-sm-12 justify-content-center align-self-center">
+						<img src="assets/img/ahis.png" class="mx-auto d-block" alt="Compañía Operadora AHIS">
+						<p class="text-center">Derechos Reservados | Crown City Casino 2018</p>
+						<div id="footer-social-links" class="text-center">
+							<a href="https://www.facebook.com/CrownCityCasinoMX/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+							<a href="https://www.instagram.com/crowncitycasino/"  target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+						</div>
+						<div class="footer-links text-center">
+							<a href="#" data-toggle="modal" data-target="#footerModal">Política de privacidad</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -309,7 +315,8 @@
 	<!-- for developer console aesthetics -->
 	<div id="scripts-section">
 		<!-- vendor scripts -->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- google maps config -->
@@ -319,7 +326,7 @@
 				var crown = {lat: 18.002037, lng: -92.946855};
 				map = new google.maps.Map(document.getElementById('map'), {
 					center: crown,
-					zoom: 18,
+					zoom: 17,
 					zoomControl: true,
 					mapTypeControl: false,
 					scaleControl: true,
