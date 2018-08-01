@@ -62,19 +62,6 @@ hr {
 	margin-right: 0 !important;
 }
 
-body::-webkit-scrollbar {
-    width: 0.9em;
-}
-
-body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}
-
 .hvh-25 {
 	height: 25vh;
 	width: 100%;
@@ -590,6 +577,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (min-width: 992px) {
+	body::-webkit-scrollbar {
+	    width: 0.9em;
+	}
+
+	body::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	}
+
+	body::-webkit-scrollbar-thumb {
+	  background-color: darkgrey;
+	  outline: 1px solid slategrey;
+	}
+	
 	#mainNav {
 		background-color: transparent;
 		border-color: transparent;
