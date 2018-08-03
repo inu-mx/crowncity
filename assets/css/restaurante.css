@@ -24,7 +24,11 @@ table{border-collapse:collapse;border-spacing:0}
 /* ---- base ---- */
 
 html, body {
-  background-color: #212121 !important;
+  background: url(../img/restaurante/menu-bg.jpg) no-repeat center center fixed;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 	height: 100%;
 	overflow-x: hidden;
 	width: 100%;
@@ -246,7 +250,22 @@ hr {
   margin-bottom: 110px;
 }
 
+.neon-text {
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
 /* ---- animations ---- */
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}
 
 @keyframes blink { /* Thanks to Nodws at https://codepen.io/nodws/pen/bdjwn */
 	78% {
