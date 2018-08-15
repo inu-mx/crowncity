@@ -201,7 +201,7 @@ hr {
       -ms-transform: translateY(6px);
           transform: translateY(6px);
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   .cd-auto-hide-header .nav-trigger {
     display: none;
   }
@@ -400,7 +400,7 @@ hr {
 -------------------------------- */
 
 #hero {
-	height: calc(100vh - 60px);
+	height: 100vh;
 	background: url(../img/general/casino-uno-blur.jpg) no-repeat center center fixed;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -414,7 +414,7 @@ hr {
 }
 
 #logo {
-	height: 23%;
+	height: auto;
 	margin-bottom: 20px;
 	width: 23%;
 }
@@ -476,7 +476,8 @@ hr {
 }
 
 .footer-links {
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #footer-social-links > a, .footer-links > a {
@@ -492,26 +493,149 @@ hr {
   margin-left: 15px;
 }
 
-.form-group label {
-	color: #212121;
+.dropdown-item {
+  color: #212121 !important;
+  margin: 0 20px;
 }
+
+.dropdown-item:hover {
+  color: #16A5F4 !important;
+  background-color: transparent !important;
+}
+
+#navbarDropdown {
+  padding-bottom: 50px;
+}
+
+.modal-content {
+  background-color: #212121 !important;
+}
+
 /* -------------------------------
 	General media queries
 -------------------------------- */
 
 @media (min-width: 320px) {
+  .cd-primary-nav > ul a {
+    border-top: none;
+  }
 
+  #cd-navigation {
+    background-color: #00011F;
+  }
+
+  #logo {
+    width: 50%;
+  }
+
+  .cd-headline {
+    font-size: 1em;
+  }
+
+  p.text-center.lead {
+    font-size: 0.8em;
+  }
+
+  .subtitle {
+    font-size: 2em;
+  }
+
+  #ahis-img {
+    margin-top: 25px;
+  }
+
+  .btn-outline {
+    width: 80%;
+  }
 }
 
 @media (min-width: 576px) {
+  .cd-primary-nav > ul a {
+    border-top: none;
+  }
 
+  #cd-navigation {
+    background-color: #00011F;
+  }
+
+  #logo {
+    width: 70%;
+  }
+
+  .cd-headline {
+    font-size: 2.2em;
+  }
+
+  p.text-center.lead {
+    font-size: 1.6em;
+  }
+
+  .subtitle {
+    font-size: 3em;
+  }
+
+  #ahis-img {
+    margin-top: 25px;
+  }
 }
 
 @media (min-width: 768px) {
+  .cd-primary-nav > ul a {
+    border-top: none;
+  }
 
+  #cd-navigation {
+    background-color: #00011F;
+  }
+
+  #logo {
+    width: 50%;
+  }
+
+  .cd-headline {
+    font-size: 2.6em;
+  }
+
+  .subtitle {
+    font-size: 2.7em;
+  }
+
+  p.text-center.lead {
+    font-size: 1.3em;
+  }
+
+  .btn-outline {
+    width: 50%;
+  }
 }
 
 @media (min-width: 992px) {
+  #navbarDropdown {
+    padding-bottom: 0px;
+  }
+
+  #hero {
+    height: calc(100vh - 60px);
+  }
+
+  #logo {
+    height: auto;
+    margin-bottom: 20px;
+    width: 23%;
+  }
+
+  .cd-headline {
+    font-size: 3.5em;
+  }
+
+  p.text-center.lead {
+    font-size: 1.2em;
+  }
+
+  .btn-outline {
+    width: 35%;
+  }
+
 	body::-webkit-scrollbar {
 		width: 0.9em;
 	}
