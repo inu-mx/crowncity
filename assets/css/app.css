@@ -509,6 +509,8 @@ hr {
 
 .modal-content {
   background-color: #212121 !important;
+  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
 }
 
 /* -------------------------------
