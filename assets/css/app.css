@@ -513,6 +513,16 @@ hr {
           box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
 }
 
+#map-content > h6, #bodyContent > p {
+  color: #212121;
+}
+
+.carousel {
+  height: auto;
+  margin: 0 auto;
+  width: 70%;
+}
+
 /* -------------------------------
 	General media queries
 -------------------------------- */
