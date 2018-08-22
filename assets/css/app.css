@@ -406,8 +406,13 @@ hr {
 -------------------------------- */
 
 #hero {
-  background-size: cover;
-  background: url(../img/general/casino-uno-blur.jpg) no-repeat center center fixed;
+  /*-webkit-filter: blur(5px); /* Safari 6.0 - 9.0
+    filter: blur(5px);*/
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  background: url(../img/general/crown-bg-tres.jpg) no-repeat center center fixed;
   height: 100vh;
 }
 
@@ -424,16 +429,16 @@ hr {
 
 .fade-neon {
   color: #ebffff;
-  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px rgb(22,165,255), 0 0 80px rgb(22,165,255);
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 15px #fff, 0 0 10px rgb(237,178,48), 0 0 80px rgb(237,178,48);
 }
 
 .btn-outline {
-          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
   -o-transition: all .5s;
-  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
   -webkit-transition: all .5s;
   background-color: #212121;
-  color: rgb(22,165,255) !important;
+  color: rgb(237,178,48) !important;
   margin-top: 30px;
   opacity: 1;
   transition: all .5s;
@@ -466,8 +471,8 @@ hr {
 }
 
 #carouselIndicators {
-  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
-          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
+          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
 }
 
 #map {
@@ -512,8 +517,8 @@ hr {
 }
 
 .modal-content {
-          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
-  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(22,165,255), 0 0 20px rgb(22,165,255);
+          box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
+  -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.3), 0 0px 5px #fff, 0 0 7px rgb(237,178,48), 0 0 20px rgb(237,178,48);
   background-color: #212121 !important;
 }
 
