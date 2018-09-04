@@ -698,3 +698,9 @@ hr {
 .footer-restaurante {
   background-color: #212121;
 }
+
+@media (max-width: 768px) {
+  .menu-landing {
+    margin-top: 50px;
+  }
+}
