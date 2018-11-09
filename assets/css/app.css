@@ -412,7 +412,7 @@ hr {
   -o-background-size: cover !important;
   -webkit-background-size: cover !important;
   background-size: cover !important;
-  background: url(../img/general/crown-bg-tres.jpg) no-repeat center center fixed;
+  background: url(../img/general/royalty-landing.jpg) no-repeat center center fixed;
   height: 100vh;
 }
 
@@ -536,6 +536,12 @@ hr {
   font-size: 0.8em;
 }
 
+#royalty-btn-txt {
+  margin-top: 30px;
+  color: #caa445;
+  font-size: 0.8em;
+}
+
 /* -------------------------------
   General media queries
 -------------------------------- */
@@ -550,7 +556,7 @@ hr {
   }
 
   #logo {
-    width: 50%;
+    width: 70%;
   }
 
   .cd-headline {
@@ -570,8 +576,24 @@ hr {
   }
 
   .btn-outline {
+    margin-top: 60px;
     width: 80%;
   }
+
+  #proximamente-texto {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 75%;
+  }
+
+  #royalty-btn-txt {
+    margin-top: 30px;
+    color: #caa445;
+    font-size: 0.8em;
+  }
+
+
 }
 
 @media (min-width: 576px) {
@@ -584,7 +606,7 @@ hr {
   }
 
   #logo {
-    width: 70%;
+    width: 75%;
   }
 
   .cd-headline {
@@ -602,6 +624,19 @@ hr {
   #ahis-img {
     margin-top: 25px;
   }
+
+  #proximamente-texto {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 55%;
+  }
+
+  #royalty-btn-txt {
+    margin-top: 30px;
+    color: #caa445;
+    font-size: 0.8em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -614,7 +649,8 @@ hr {
   }
 
   #logo {
-    width: 50%;
+    width: 70%;
+    height: auto;
   }
 
   .cd-headline {
@@ -630,7 +666,21 @@ hr {
   }
 
   .btn-outline {
+    margin-top: 60px;
     width: 50%;
+  }
+
+  #proximamente-texto {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50% !important;
+  }
+
+  #royalty-btn-txt {
+    margin-top: 30px;
+    color: #caa445;
+    font-size: 0.9em;
   }
 }
 
@@ -643,10 +693,29 @@ hr {
     height: calc(100vh - 60px);
   }
 
-  #logo {
+  /*#logo {
     height: auto;
     margin-bottom: 20px;
     width: 23%;
+  }*/
+
+  #logo {
+    height: auto;
+    margin-bottom: 20px;
+    width: 26%;
+  }
+
+  #proximamente-texto {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 16% !important;
+  }
+
+  #royalty-btn-txt {
+    margin-top: 30px;
+    color: #caa445;
+    font-size: 0.8em;
   }
 
   .cd-headline {
@@ -658,7 +727,8 @@ hr {
   }
 
   .btn-outline {
-    width: 35%;
+    margin-top: 60px;
+    width: 30%;
   }
 
   body::-webkit-scrollbar {
@@ -672,35 +742,5 @@ hr {
   body::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
-  }
-}
-
-
-/* ----------------------------------------------
--                                               -
--             R E S T A U R A N T E             -
--                                               -
----------------------------------------------- */
-
-.container, .col-sm-12, .col-md-6 {
-  padding: 0 !important;
-}
-
-.restaurante-container {
-  background-color: #212121;
-}
-
-.img-fluid.menu-img:hover {
-  width: 110%;
-  height: auto;
-}
-
-.footer-restaurante {
-  background-color: #212121;
-}
-
-@media (max-width: 768px) {
-  .menu-landing {
-    margin-top: 50px;
   }
 }
